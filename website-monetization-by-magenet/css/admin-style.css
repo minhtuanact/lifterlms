@@ -1,0 +1,164 @@
+.magenet-dialog {
+    background-color: #ffffcc;
+}
+
+.magenet-dialog *:focus{
+    outline: none !important;
+}
+
+.magenet-tutorial-popup {
+    position: relative;
+}
+
+.magenet-dialog .ui-dialog-titlebar {
+    background-color: #ffffcc;
+    border-bottom: none;
+}
+
+.magenet-dialog .btn_prev {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 16px;
+    background: #BCBCBC;
+    padding: 10px 20px 10px 20px;
+    border: solid #c0c0c0 1px;
+    text-decoration: none;
+}
+
+.magenet-dialog .btn_prev:hover {
+    background: #9c9a9c;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.magenet-dialog .btn_next, .magenet-dialog .btn_again {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 16px;
+    background: #FF9900;
+    padding: 10px 20px;
+    border: solid #FFCC00 1px;
+    text-decoration: none;
+}
+
+.magenet-dialog .btn_next:hover, .magenet-dialog .btn_again:hover {
+    background: #eb8d00;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.magenet-dialog .confirm-website,
+.magenet-dialog .activate {
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 7px 15px;
+    text-decoration: none;
+}
+
+.magenet-dialog .confirm-website {
+    color: #fff;
+    background: #337ab7;
+    border: solid #2e6da4 1px;
+}
+
+.magenet-dialog .activate {
+    color: #fff;
+    background: #c9302c;
+    border: solid #ac2925 1px;
+}
+
+.triangle-border {
+    position: relative;
+    padding: 15px;
+    margin: 1em 0 3em;
+    border: 5px solid #5a8f00;
+    color: #333;
+    background: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.triangle-border.top::before {
+    top: -20px;
+    bottom: auto;
+    left: auto;
+    right: 40px;
+    border-width: 0 20px 20px;
+}
+.triangle-border::before {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 40px;
+    border-width: 20px 20px 0;
+    border-style: solid;
+    border-color: #5a8f00 transparent;
+    display: block;
+    width: 0;
+}
+
+.triangle-border.top::after {
+    top: -13px;
+    bottom: auto;
+    /*left: auto;
+    right: 47px;*/
+    border-width: 0 13px 13px;
+}
+.triangle-border::after {
+    content: "";
+    position: absolute;
+    bottom: -13px;
+    left: 47px;
+    border-width: 13px 13px 0;
+    border-style: solid;
+    border-color: #fff transparent;
+    display: block;
+    width: 0;
+}
+
+.bubble
+{
+    position: relative;
+    width: 500px;
+    /*height: 120px;*/
+    padding: 10px;
+    background: #E8FCDB;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: #7F7F7F solid 1px;
+}
+
+.bubble:after
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 10px 10px;
+    border-color: #E8FCDB transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    top: -10px;
+    left: 15px;
+}
+
+.bubble:before
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 10px 10px;
+    border-color: #7F7F7F transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+    top: -11px;
+    left: 15px;
+}

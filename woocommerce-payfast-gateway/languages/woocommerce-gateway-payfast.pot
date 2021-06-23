@@ -1,0 +1,365 @@
+# Copyright (C) 2021
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/woocommerce-gateway-payfast\n"
+"POT-Creation-Date: 2021-05-04 14:00:20+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: node-wp-i18n 1.2.3\n"
+
+#: gateway-payfast.php:50
+msgid "Settings"
+msgstr ""
+
+#: gateway-payfast.php:51
+msgid "Support"
+msgstr ""
+
+#: gateway-payfast.php:52
+msgid "Docs"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast-privacy.php:12
+#: includes/class-wc-gateway-payfast.php:33
+#: includes/class-wc-gateway-payfast.php:116
+#: includes/class-wc-gateway-payfast.php:212
+msgid "PayFast"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast-privacy.php:14
+msgid "WooCommerce PayFast Order Data"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast-privacy.php:17
+msgid "WooCommerce PayFast Subscriptions Data"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast-privacy.php:20
+msgid "WooCommerce PayFast Data"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast-privacy.php:54
+msgid ""
+"By using this extension, you may be storing personal data or sharing data "
+"with an external service. <a href=\"%s\" target=\"_blank\">Learn more about "
+"how this works, including what you may want to include in your privacy "
+"policy.</a>"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast-privacy.php:77
+msgid "Orders"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast-privacy.php:81
+msgid "PayFast token"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast-privacy.php:138
+msgid "Subscriptions"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast-privacy.php:142
+msgid "PayFast subscription token"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast-privacy.php:223
+msgid "Order ID %d contains an active Subscription"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast-privacy.php:234
+msgid "PayFast Subscriptions Data Erased."
+msgstr ""
+
+#: includes/class-wc-gateway-payfast-privacy.php:253
+msgid "PayFast Order Data Erased."
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:35
+#. translators: 1: a href link 2: closing href
+msgid ""
+"PayFast works by sending the user to %1$sPayFast%2$s to enter their payment "
+"information."
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:105
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:106
+msgid "Enable PayFast"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:108
+msgid "This controls whether or not this gateway is enabled within WooCommerce."
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:113
+msgid "Title"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:115
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:120
+msgid "Description"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:122
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:127
+msgid "PayFast Sandbox"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:129
+msgid "Place the payment gateway in development mode."
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:133
+msgid "Merchant ID"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:135
+msgid "This is the merchant ID, received from PayFast."
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:139
+msgid "Merchant Key"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:141
+msgid "This is the merchant key, received from PayFast."
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:145
+msgid "Passphrase"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:147
+msgid "* Required. Needed to ensure the data passed through is secure."
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:151
+msgid "Send Debug Emails"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:153
+msgid ""
+"Send debug e-mails for transactions through the PayFast gateway (sends on "
+"successful transaction as well)."
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:157
+msgid "Who Receives Debug E-mails?"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:159
+msgid ""
+"The e-mail address to which debugging error e-mails are sent when in test "
+"mode."
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:163
+msgid "Enable Logging"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:165
+msgid "Enable transaction logging for gateway."
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:178
+msgid "Sandbox Merchant ID currently in use"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:179
+msgid "Sandbox Merchant Key currently in use"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:213
+msgid "Gateway Disabled"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:213
+#. translators: 1: a href link 2: closing href
+msgid ""
+"Choose South African Rands as your store currency in %1$sGeneral "
+"Settings%2$s to enable the PayFast Gateway."
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:244
+#. translators: 1: blog info name
+msgid "New order from %s"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:296
+msgid "Pay via PayFast"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:296
+msgid "Cancel order &amp; restore cart"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:301
+msgid ""
+"Thank you for your order. We are now redirecting you to PayFast to make "
+"payment."
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:350
+msgid "Thank you for your order, please click the button below to pay with PayFast."
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:604
+msgid "Merchant cancelled subscription on PayFast."
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:620
+msgid "ITN payment completed"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:651
+#. translators: 1: gross amount 2: payment id
+msgid "PayFast pre-order fee paid: R %1$s (%2$s)"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:659
+#. translators: 1: gross amount 2: payment id
+msgid "PayFast pre-order product line total paid: R %1$s (%2$s)"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:692
+#: includes/class-wc-gateway-payfast.php:721
+#. translators: 1: payment status
+msgid "Payment %s via ITN."
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:895
+#. translators: 1: error code 2: error message
+msgid "PayFast Subscription renewal transaction failed (%1$s:%2$s)"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:898
+msgid "PayFast Subscription renewal transaction submitted."
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:985
+msgid "Can not submit PayFast request with an empty token"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:1122
+#. translators: 1: error code 2: error message
+msgid "PayFast Pre-Order payment transaction failed (%1$s:%2$s)"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:1165
+msgid "Amount mismatch"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:1166
+msgid "Bad access of page"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:1167
+msgid "Bad source IP address"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:1168
+msgid "Failed to connect to PayFast"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:1169
+msgid "Security signature mismatch"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:1170
+msgid "Merchant ID mismatch"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:1171
+msgid "No saved session found for ITN transaction"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:1172
+msgid "Order ID not present in URL"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:1173
+msgid "Order ID mismatch"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:1174
+msgid "This order ID is invalid"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:1175
+msgid "Order Number mismatch"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:1176
+msgid "This order has already been processed"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:1177
+msgid "PDT query failed"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:1178
+msgid "PDT token not present in URL"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:1179
+msgid "Session ID mismatch"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:1180
+msgid "Unkown error occurred"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:1183
+msgid "Payment was successful"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:1184
+msgid "Payment has failed"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:1185
+msgid ""
+"The payment is pending. Please note, you will receive another Instant "
+"Transaction Notification when the payment status changes to \"Completed\", "
+"or \"Failed\""
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:1353
+msgid "PayFast requires a passphrase to work."
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:1374
+msgid "This represents the fee Payfast collects for the transaction."
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:1375
+msgid "Payfast Fee:"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:1404
+msgid "This represents the net total that was credited to your Payfast account."
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:1405
+msgid "Amount Net:"
+msgstr ""
+
+#: includes/class-wc-gateway-payfast.php:240
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
