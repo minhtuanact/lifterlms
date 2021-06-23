@@ -1,1 +1,0 @@
-<?php return array('dependencies' => array('backbone', 'jquery', 'jquery-serializejson', 'underscore', 'wp-color-picker-alpha', 'wp-util'), 'version' => '53a13ded04b6f9903b09898c90a84ca4');
