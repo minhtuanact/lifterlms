@@ -1,1 +1,0 @@
-<h3><?php echo $this->_get_header(); ?></h3>
