@@ -1,0 +1,1 @@
+<?php return array('dependencies' => array('crowdsignal-forms-apifetch', 'lodash', 'react', 'react-dom', 'wp-block-editor', 'wp-components', 'wp-element', 'wp-i18n', 'wp-polyfill'), 'version' => '8b19594fa09f8d5f901eb798951ba1f2');
