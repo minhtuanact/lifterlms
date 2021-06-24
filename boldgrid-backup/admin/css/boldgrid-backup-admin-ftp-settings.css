@@ -1,8 +1,0 @@
-table [type="text"],
-table [type="password"] {
-	width: 100%;
-}
-
-[type="number"] {
-	width: 75px;
-}
